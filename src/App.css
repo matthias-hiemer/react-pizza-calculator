@@ -1,3 +1,14 @@
+
+.pizza-data{
+
+  text-align: left;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+}
+
 .App {
   text-align: center;
 }
@@ -14,7 +25,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #2a2220;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
